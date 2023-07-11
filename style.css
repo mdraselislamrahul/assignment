@@ -75,9 +75,10 @@ body {
 }
 
 .chilled-header-banner h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 800;
     color: #272727;
+    margin-top: 60px;
 }
 
 .chilled-header-banner p {
