@@ -1,5 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     padding: 0px 150px;
+    background-color: rgba(229, 84, 115, 0.10);
 }
 
 body {
@@ -10,6 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .chilled-nav h1 {
@@ -34,8 +41,52 @@ body {
     border: none;
     padding: 15px 30px;
     background-color: #E55473;
-    color: aliceblue;
+    color: #FFFFFF;
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.main-header-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+.chilled-header-banner {
+    max-width: 450px;
+}
+
+.chilled-header-banner h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #272727;
+}
+
+.chilled-header-banner p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.chilled-header-banner button {
+    border: none;
+    padding: 15px 30px;
+    background-color: #E55473;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.chilled-header-banner img {
+    margin-top: 20px;
+    height: 500px;
 }
