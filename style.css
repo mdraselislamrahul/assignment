@@ -1,0 +1,41 @@
+header {
+    padding: 0px 150px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chilled-nav h1 {
+    font-size: 50px;
+    color: #1E90FF;
+    cursor: pointer;
+}
+
+.chilled-nav span {
+    color: #E55473;
+}
+
+.chilled-nav ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    color: #E55473;
+    cursor: pointer;
+}
+
+.chilled-nav ul li button {
+    border: none;
+    padding: 15px 30px;
+    background-color: #E55473;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
